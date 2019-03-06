@@ -7,6 +7,7 @@ using namespace std;
 class Person
 {
 private:
+    string employeesize[20];
     string lastName;
     string firstName;
     float  payRate;
