@@ -2,29 +2,14 @@
 #include <iostream>
 
 using namespace std;
-/*class Person
-{
-private:
-    string lastName;
-    string firstName;
-    float  payRate;
-    float  hoursWorked;
-public:
-    Person();
-    void setLastName(string lName);
-    string getLastName();
-    void setFirstName(string fName);
-    string getFirstName();
-    void setPayRate(float rate);
-    float getPayRate();
-    void setHoursWorked(float hours);
-    float getHoursWorked();
-    float totalPay();
-    string fullName();
-};*/
 
 
 Person::Person(){
+firstName = " ";
+lastName = " ";
+payRate = 0.0;
+hoursWorked = 0.0;
+
 }
 
 void Person::setLastName(string lName){
@@ -60,7 +45,7 @@ return hoursWorked;
 }
 
 float Person::totalPay(){
-double totalpay;
+float totalpay;
 totalpay = hoursWorked*payRate;
 return totalpay;
 }
