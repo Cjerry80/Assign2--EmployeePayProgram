@@ -4,7 +4,7 @@
 using namespace std;
 
 
-Person::Person(){
+Person::Person(string fName, string lName, float rate, float hours){
 firstName = " ";
 lastName = " ";
 payRate = 0.0;
